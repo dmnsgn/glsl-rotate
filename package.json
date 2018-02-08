@@ -1,0 +1,26 @@
+{
+  "name": "glsl-rotate",
+  "version": "1.0.0",
+  "description": "GLSL rotation functions with matrices: 2D and 3D (with X/Y/Z convenience functions).",
+  "main": "rotate.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
+  "homepage": "https://github.com/dmnsgn/glsl-rotate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmnsgn/glsl-rotate"
+  },
+  "keywords": [
+    "glsl",
+    "rotate",
+    "glslify",
+    "webgl",
+    "shader"
+  ],
+  "issues": {
+    "url": "https://github.com/dmnsgn/glsl-rotate/issues"
+  },
+  "license": "MIT"
+}
