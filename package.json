@@ -1,6 +1,6 @@
 {
   "name": "glsl-rotate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GLSL rotation functions with matrices: 2D and 3D (with X/Y/Z convenience functions).",
   "main": "rotate.glsl",
   "scripts": {
