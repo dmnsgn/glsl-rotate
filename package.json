@@ -1,17 +1,7 @@
 {
   "name": "glsl-rotate",
   "version": "1.1.0",
-  "description": "GLSL rotation functions with matrices: 2D and 3D (with X/Y/Z convenience functions).",
-  "main": "rotate.glsl",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
-  "homepage": "https://github.com/dmnsgn/glsl-rotate",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dmnsgn/glsl-rotate"
-  },
+  "description": "GLSL rotation functions with matrices: 2D and 3D (with X/Y/Z convenience functions) available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
     "rotate",
@@ -19,8 +9,38 @@
     "webgl",
     "shader"
   ],
-  "issues": {
-    "url": "https://github.com/dmnsgn/glsl-rotate/issues"
+  "homepage": "https://github.com/dmnsgn/glsl-rotate",
+  "bugs": "https://github.com/dmnsgn/glsl-rotate/issues",
+  "repository": "dmnsgn/glsl-rotate",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "glslify test/index.glsl"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "glsl-constants": "^2.0.0",
+    "glslify": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "snowdev": {
+    "dependencies": []
+  }
 }

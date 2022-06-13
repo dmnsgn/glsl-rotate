@@ -1,4 +1,4 @@
-mat3 rotation3dY(float angle) {
+export default /* glsl */ `mat3 rotation3dY(float angle) {
   float s = sin(angle);
   float c = cos(angle);
 
@@ -9,4 +9,4 @@ mat3 rotation3dY(float angle) {
   );
 }
 
-#pragma glslify: export(rotation3dY)
+`;

@@ -1,4 +1,4 @@
-mat2 rotation2d(float angle) {
+export default /* glsl */ `mat2 rotation2d(float angle) {
   float s = sin(angle);
   float c = cos(angle);
 
@@ -8,4 +8,4 @@ mat2 rotation2d(float angle) {
   );
 }
 
-#pragma glslify: export(rotation2d)
+`;

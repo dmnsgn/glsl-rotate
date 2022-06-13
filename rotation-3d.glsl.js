@@ -1,4 +1,4 @@
-mat4 rotation3d(vec3 axis, float angle) {
+export default /* glsl */ `mat4 rotation3d(vec3 axis, float angle) {
   axis = normalize(axis);
   float s = sin(angle);
   float c = cos(angle);
@@ -12,4 +12,4 @@ mat4 rotation3d(vec3 axis, float angle) {
   );
 }
 
-#pragma glslify: export(rotation3d)
+`;
