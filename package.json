@@ -33,7 +33,7 @@
     "test": "glslify test/index.glsl"
   },
   "devDependencies": {
-    "glsl-constants": "^2.0.0",
+    "glsl-constants": "^2.0.1",
     "glslify": "^7.1.1"
   },
   "engines": {
