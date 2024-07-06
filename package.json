@@ -1,6 +1,6 @@
 {
   "name": "glsl-rotate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "GLSL rotation functions with matrices: 2D and 3D (with X/Y/Z convenience functions) available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
@@ -11,7 +11,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/glsl-rotate",
   "bugs": "https://github.com/dmnsgn/glsl-rotate/issues",
-  "repository": "dmnsgn/glsl-rotate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/glsl-rotate.git"
+  },
   "funding": [
     {
       "type": "individual",
